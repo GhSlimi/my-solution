@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    body{
+        background:  hsl(212, 45%, 89%);
+        font-size:   15px;
+        font-family : 'Concert One', cursive;
+        
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 510px;
+        width: 355px;
+        margin: 94px 500px;
+        background:  hsl(0, 0%, 100%);
+        border-radius: 29px;
+    }
+
+    .qr__code img {
+        max-width: 400px;
+        max-height: 330px;
+        margin-bottom: 9px;
+        border-radius: 30px ;
+    }
+
+.text-1{
+        color: hsl(218, 44%, 22%) ;
+    }
+
+    .text-2{
+       color: hsl(220, 15%, 55%) ;
+       text-align: center;
+    }
